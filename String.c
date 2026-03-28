@@ -79,6 +79,7 @@ size_t str_length(const String str){
     return str->length;
 }
 
+/// Reverse the input String
 String str_reverse(const String str){
     
     assert(str != NULL);
@@ -94,6 +95,7 @@ String str_reverse(const String str){
     return rev;
 }
 
+/// Copy a string to another string
 size_t str_copy(String dst, const String src){
 
     assert(src != NULL);
@@ -114,6 +116,7 @@ size_t str_copy(String dst, const String src){
     return dst->length;
 }
 
+/// Concatonate two strings
 size_t str_concat(String dst, const String src){
 
     assert(dst != NULL);
@@ -136,6 +139,7 @@ size_t str_concat(String dst, const String src){
     return dst->length;
 }
 
+/// Compare two strings
 int str_compare(const String str1, const String str2) {
 
     assert(str1 != NULL);
@@ -151,6 +155,7 @@ int str_compare(const String str1, const String str2) {
     return (int)(str1->length - str2->length);
 }
 
+/// Get a character from an index
 int str_char_at(const String str, int index){
     
     assert(str != NULL);
@@ -162,6 +167,7 @@ int str_char_at(const String str, int index){
     return str->data[index];
 }
 
+/// Get a substring
 String str_substring(const String str, int start, int end){
     
     assert(str != NULL);
