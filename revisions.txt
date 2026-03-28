@@ -1,0 +1,17 @@
+commit 08727ea1fe4613ee729293ab3355dde18c63ae8d
+Author: Rafariann <ryanferrer158@gmail.com>
+Date:   Fri Mar 27 20:52:19 2026 -0400
+
+    Documented every function
+
+commit 5673c1e9aa51093794cd682bde7b67d16b4da503
+Author: Rafariann <ryanferrer158@gmail.com>
+Date:   Fri Mar 27 20:49:38 2026 -0400
+
+    Initial commit
+
+commit 06506471df9d813f624e0af975527a518f7c292f
+Author: Rafariann <ryanferrer158@gmail.com>
+Date:   Fri Mar 27 20:47:16 2026 -0400
+
+    Undocumented full implementation of String.c
